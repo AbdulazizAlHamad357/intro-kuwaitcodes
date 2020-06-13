@@ -1,0 +1,20 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+        System.out.println("Hello World");
+        
+        int a = 30;
+        int b = 20;
+        boolean x;
+        
+        int z = a + b;
+        int y = a * b;
+        x = z < y;
+        
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(z);
+        System.out.println(y);
+        System.out.println(x);
+     }
+}
